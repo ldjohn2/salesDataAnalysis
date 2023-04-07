@@ -48,7 +48,7 @@ and year_id = 2004
 group by month_id,productline
 order by 3 desc
 
--- who is our best customer(this could be best answered rfm)
+-- who is our best customer ?(this could be best answered rfm)
 drop table if exists #rfm
 ;with rfm as (
 select
